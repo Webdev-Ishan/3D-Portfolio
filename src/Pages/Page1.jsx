@@ -1,14 +1,35 @@
-import React, { useRef } from 'react'
+import React, { useRef,useState } from 'react'
 import bg from '../assets/Background.jpg'
 import Tilttext from '../Components/Tilttext'
-import Page1bottom from '../Components/Pasge1bottom'
+import Page1bottom from '../Components/Page1bottom'
+import {useGSAP} from '@gsap/react'
+import gsap from 'gsap'
 
 const Page1 = () => {
 
     const tiltref= useRef(null)
+    const [Xval, setXval] = useState(0);
+    const [Yval, setYval] = useState(0);
+
     const mousemoving=(e)=>{
-        tiltref.current.style.transform = `rotateX(${e.clientX}) rotateY(${e.clientY})`
+      setXval((e.clientX-tiltref.current.getBoundingClientRect().x - tiltref.current.getBoundingClientRect().width/2)/20)
+      setYval(-(e.clientY-tiltref.current.getBoundingClientRect().y - tiltref.current.getBoundingClientRect().height/2)/20)
+
+       
     }
+
+
+useGSAP(()=>{
+
+  gsap.to(tiltref.current,{
+transform: `rotateX(${Yval}deg) rotateY(${Xval}deg)`,
+duration: 3,
+ease:'elastic.out(1.0.3)'
+
+  })
+},[Xval,Yval])
+
+
   return (
     <div onMouseMove={(e)=>{mousemoving(e)}} className='h-screen p-3 bg-white'>
      <div 

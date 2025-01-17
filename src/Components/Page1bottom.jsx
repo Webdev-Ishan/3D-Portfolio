@@ -1,6 +1,18 @@
 import React from 'react'
+import {useGSAP} from '@gsap/react'
+import gsap from 'gsap'
 
-const Pasge1bottom = () => {
+
+const Page1bottom = () => {
+useGSAP(()=>{
+  gsap.to('img',{
+    rotate:360,
+    duration:2,
+    repeat:-1,
+    ease:'linear'
+  })
+})
+
   return (
     <div className='absolute left-0 p-6 flex items-end justify-between bottom-0 w-full'>
       <div className='text-white text-sm font-[Anzo1]'>
@@ -18,4 +30,4 @@ const Pasge1bottom = () => {
   )
 }
 
-export default Pasge1bottom
+export default Page1bottom
