@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Anzo1";
+    src: url('./assets/file.woff2');
+}
+
+
+
+@font-face {
+    font-family: "Anzo2";
+    src: url('./assets/madefor-text.var.original.woff2');
+}
+
+body{
+
+    background-color: black;
+}
+#page1-in{
+    position: relative;
+    perspective: 1000px;
+}
+
+#titlediv{
+    background: #000;
+    width: fit-content;
+    
+}
