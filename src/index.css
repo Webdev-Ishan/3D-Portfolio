@@ -17,6 +17,7 @@
 body{
 
     background-color: black;
+    overflow-x: hidden;
 }
 #page1-in{
     position: relative;
@@ -34,6 +35,10 @@ body{
     perspective: 2000px;
 }
 
+#sectiondiv2{
+    position: relative;
+    perspective: 2000px;
+}
 .rotatetext{
     transform-origin: 100% 100%;
 }

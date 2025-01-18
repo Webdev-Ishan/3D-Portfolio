@@ -31,7 +31,7 @@ ease:'elastic.out(1.0.3)'
 
 
   return (
-    <div onMouseMove={(e)=>{mousemoving(e)}} className='h-screen p-3 bg-white'>
+    <div onMouseMove={(e)=>{mousemoving(e)}} className='h-screen p-3 bg-white w-full '>
      <div 
      id='page1-in'
         className='w-full h-full pt-9 pl-24 shadow-md shadow-blue-400 rounded-xl bg-cover bg-center bg-black' 
