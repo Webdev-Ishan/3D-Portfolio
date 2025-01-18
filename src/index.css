@@ -28,3 +28,12 @@ body{
     width: fit-content;
     
 }
+
+#sectiondiv{
+    position: relative;
+    perspective: 2000px;
+}
+
+.rotatetext{
+    transform-origin: 100% 100%;
+}
