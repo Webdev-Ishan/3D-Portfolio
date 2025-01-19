@@ -41,32 +41,32 @@ end:'top -400%'
 
   return (
     <div id='sectiondiv' className='bg-white text-black p-2 text-center w-full h-auto '>
-      <h2 className='font-mono text-green-600 text-lg mb-12' >{navpara}  <Cursor cursorStyle="|" /></h2>
+      <h2 className='font-mono text-green-600 text-lg mb-24' >{navpara}  <Cursor cursorStyle="|" /></h2>
    <div className='rotatetext shadow-md'>
-    <h1  style={{ WebkitTextStroke: "1px black" }} className='text-[22vw] text-blue-500 font-[Anzo1] leading-[23vw] '>React<span  style={{ WebkitTextStroke: "1px blue" }} className='text-black'>JS</span></h1>
+    <h1  style={{ WebkitTextStroke: "1px black" }} className='text-[22vw] bg-black text-blue-500 font-[Anzo1] leading-[23vw] '>React<span  style={{ WebkitTextStroke: "1px blue" }} className='text-white'>JS</span></h1>
    </div>
    <div className='rotatetext shadow-md'>
     <h1  style={{ WebkitTextStroke: "1px black" }} className='text-[18vw] text-green-500 font-[Anzo1] leading-[23vw]'>Node<span  style={{ WebkitTextStroke: "1px yellow" }} className='text-black'>JS</span></h1>
    </div>
    <div className='rotatetext shadow-md'>
-    <h1  style={{ WebkitTextStroke: "1px black" }} className='text-[20vw] text-emerald-500 font-[Anzo1] leading-[23vw]'>Mongo<span  style={{ WebkitTextStroke: "1px blue" }} className='text-black'>DB</span></h1>
+    <h1  style={{ WebkitTextStroke: "1px black" }} className='text-[20vw] text-emerald-500 font-[Anzo1] leading-[23vw] bg-black'>Mongo<span  style={{ WebkitTextStroke: "1px blue" }} className='text-white'>DB</span></h1>
    </div>
    <div className='rotatetext shadow-md'>
     <h1  style={{ WebkitTextStroke: "1px " }} className='text-[18vw] text-black font-[Anzo1] leading-[23vw]'>Express<span  style={{ WebkitTextStroke: "1px black" }} className='text-orange-500'>JS</span></h1>
    </div>
    <div className='rotatetext shadow-md'>
-    <h1  style={{ WebkitTextStroke: "1px black" }} className='text-[17vw]  bg-gradient-to-r from-lime-400 to-teal-500 bg-clip-text text-transparent font-[Anzo1] leading-[23vw]'>GSAP</h1>
+    <h1  style={{ WebkitTextStroke: "1px black" }} className='text-[17vw]  text-green-500 font-[Anzo1] leading-[23vw] bg-black'>GSAP</h1>
    </div >
    <div className='rotatetext shadow-md'>
     <h1  style={{ WebkitTextStroke: "2px black" }} className='text-[22vw]  text-blue-700 font-[Anzo1] leading-[23vw]'>Tailwind</h1>
    </div>
    <div className='rotatetext shadow-md'>
-    <h1  style={{ WebkitTextStroke: "1px black" }} className='text-[22vw]  text-yellow-400 font-[Anzo1] leading-[23vw]'>And</h1>
+    <h1  style={{ WebkitTextStroke: "1px black" }} className='text-[22vw]  text-yellow-400 font-[Anzo1] leading-[23vw] bg-black'>And</h1>
    </div>
    <div className='rotatetext '>
     <h1  style={{ WebkitTextStroke: "1px black" }} className='text-[22vw]  text-red-500 font-[Anzo1] leading-[23vw]'>Many More</h1>
    </div>
-   <div className='rotatetext '>
+   <div className='rotatetext bg-black '>
     <h1  style={{ WebkitTextStroke: "1px black" }} className='text-[20vw]  bg-gradient-to-r from-rose-500 to-fuchsia-400 bg-clip-text text-transparent font-[Anzo1] leading-[23vw]'>Skills...</h1>
    </div>
 
@@ -100,11 +100,16 @@ className='w-[43px] h-10 rounded-md '
  src="https://imgs.search.brave.com/nKd3NFbMdj8R87z1rQjwbeGkkfHxaNJhSGoBC4IWSso/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wZW5q/aS5jby93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMy8wNy9YLWxv/Z28tdHdpdHRlci0x/MDI0eDU3NC5qcGc" alt="" />
 Twitter ...</a>
 
+<a href="https://www.geeksforgeeks.org/user/ishansai2rb6/" className='font-mono text-emerald-500 text-3xl'
+>
+<img className='w-[46px] h-10 rounded-md ' src="https://imgs.search.brave.com/oJ4I-oR5_wXw1YTHQe4YDiwdN7xu1PvQBGHcnN8vJ0o/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy80/LzQzL0dlZWtzZm9y/R2Vla3Muc3Zn" alt="" />
+  GfG...
+</a>
 
    </div>
 
 
-   <div className='w-full border-black border-[1px] mt-16 mb-10 '>
+   <div className='w-full border-black border-[1px] mt-16  '>
 
 
 </div>
