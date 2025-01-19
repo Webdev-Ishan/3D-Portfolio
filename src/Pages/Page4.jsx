@@ -1,23 +1,33 @@
 import React from 'react'
-import bg from '../assets/Bg2.jpg'
-
+import bg from '../assets/Bg2.mp4'
+import {useGSAP} from '@gsap/react'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/all'
 
 const Page4 = () => {
+  
 
+  
 
     
   return (
-    <div id='sectiondiv2' className='bg-white bg-cover bg-center w-full h-auto p-10'  style={{ backgroundImage: `url(${bg})` }}>
+    <div id='sectiondiv2' className='bg-white border-4 border-black  bg-cover bg-center w-full h-auto p-10'>
+     
+     <video autoPlay loop muted className='absolute   top-0 left-0 w-full h-full object-cover'>
+        <source src={bg} type='video/mp4' />
+      </video>
+     
+     <div className='parent relative z-10'>
        <div className='rotatetext '>
-    <h1  style={{ WebkitTextStroke: "1px black" }} className='text-[17vw] text-white font-[Anzo1] leading-[23vw] '>Passionate</h1>
+    <h1  style={{ WebkitTextStroke: "1px black" }} className='text-[12vw]   text-white font-[Anzo1] leading-[15vw] '>Passionate</h1>
    </div>
    <div className='rotatetext '>
-    <h1  style={{ WebkitTextStroke: "1px black" }} className='text-[17vw] text-white font-[Anzo1] leading-[23vw] '>About</h1>
+    <h1  style={{ WebkitTextStroke: "1px black" }} className='text-[12vw]  text-white font-[Anzo1] leading-[15vw] '>About</h1>
    </div>
    <div className='rotatetext '>
-    <h1  style={{ WebkitTextStroke: "1px black" }} className='text-[17vw] text-white font-[Anzo1] leading-[23vw] '>WEB Dev</h1>
+    <h1  style={{ WebkitTextStroke: "1px black" }} className='text-[12vw]   text-white font-[Anzo1] leading-[15vw] '>WEB Dev</h1>
    </div>
-  
+   </div>
     </div>
   )
 }
