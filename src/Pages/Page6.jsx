@@ -3,7 +3,7 @@ import React from 'react'
 const Page6 = () => {
   return (
     <div className='h-screen p-6 bg-black '>
-    <h1 className='text-9xl text-white relative m-6 mb-16 left-20 font-[Anzo1]'>EDUCATION</h1>
+    <h1 style={{ WebkitTextStroke: "2px blue" }} className='text-9xl text-white relative m-6 mb-16 left-20 font-[Anzo1]'>EDUCATION</h1>
   <div className='w-full h-auto mb-16 p-6 flex justify-between items-center text-white'>
 
 <div className='flex flex-col w-1/2 justify-center items-center gap-8'>
@@ -34,7 +34,7 @@ const Page6 = () => {
 
 </div>
 
-<div className='m-10'>
+<div className='m-10 border-2 border-white'>
 <img src="https://imgs.search.brave.com/NDCqrUFFik7u_tKU8JnL9o2USh2xi7R4jbE7z6cRX6E/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly8xMDAw/bG9nb3MubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIyLzEx/L0lHTk9VLUxvZ28t/NTAweDI4MS5wbmc" alt="" />
 
 </div>
@@ -49,7 +49,7 @@ const Page6 = () => {
   <div className=' h-screen p-6 flex justify-between items-center text-white border-b-2 '>
 
 
-  <div className='w-72 h-72'>
+  <div className='w-72 h-72 border-2 border-white p-2'>
 <img src="https://www.hnbgu.ac.in/sites/default/files/HNBG-new-logo.png" alt="" />
 
 </div>
@@ -59,7 +59,7 @@ const Page6 = () => {
 
 <div className='flex flex-col w-1/2 justify-center m-12 items-center gap-8'>
 
-<h1 className='text-7xl text-blue-500'>HNBGU</h1>
+<h1 className='text-7xl text-green-500'>HNBGU</h1>
 
 <p class="text-white leading-relaxed">
 

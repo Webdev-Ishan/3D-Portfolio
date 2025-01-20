@@ -19,13 +19,13 @@ const Page4 = () => {
     </video>
     <div className='parent relative z-10'>
       <div className='rotatetext'>
-        <h1 style={{ WebkitTextStroke: "1px black" }} className='text-[12vw] text-white font-[Anzo1] leading-[15vw]'>Passionate</h1>
+        <h1 style={{ WebkitTextStroke: "2px purple" }} className='text-[12vw] text-white font-[Anzo1] leading-[15vw]'>Passionate</h1>
       </div>
       <div className='rotatetext'>
-        <h1 style={{ WebkitTextStroke: "1px black" }} className='text-[12vw] text-white font-[Anzo1] leading-[15vw]'>About</h1>
+        <h1 style={{ WebkitTextStroke: "2px purple" }} className='text-[12vw] text-white font-[Anzo1] leading-[15vw]'>About</h1>
       </div>
       <div className='rotatetext'>
-        <h1 style={{ WebkitTextStroke: "1px black" }} className='text-[12vw] text-white font-[Anzo1] leading-[15vw]'>WEB Dev</h1>
+        <h1 style={{ WebkitTextStroke: "2px purple" }} className='text-[12vw] text-white font-[Anzo1] leading-[15vw]'>WEB Dev</h1>
       </div>
     </div>
   </div>

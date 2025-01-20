@@ -17,7 +17,7 @@ const Page5 = () => {
 
         {/* Content container */}
         <div className='relative z-10 p-2 text-white'>
-          <h1 style={{ WebkitTextStroke: "1px black" }}  className='font-semibold uppercase text-[15vw] text-pretty text-blue-600 '>
+          <h1 style={{ WebkitTextStroke: "2px yellow" }}  className='font-semibold uppercase text-[15vw] text-pretty text-blue-600 '>
             About
           </h1>
           <p className='font-normal relative left-6 text-white text-ellipsis text-md mb-8'>

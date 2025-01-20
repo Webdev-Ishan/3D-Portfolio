@@ -40,8 +40,18 @@ end:'top -400%'
 })
 
   return (
-    <div id='sectiondiv' className='bg-white text-black p-2 text-center w-full h-auto '>
-      <h2 className='font-mono text-green-600 text-lg mb-24' >{navpara}  <Cursor cursorStyle="|" /></h2>
+    <div id='sectiondiv' className='bg-white text-black  text-center w-full h-auto '>
+ <div className='w-full h-auto mb-14 bg-gradient-to-br from-gray-900 via-black to-gray-800 p-10 shadow-xl hover:shadow-2xl transition-all duration-300'>
+  <h2 className='font-mono text-green-400 text-lg m-20 animate-pulse'>
+    {navpara} <Cursor cursorStyle="|" />
+  </h2>
+  <h1 style={{ WebkitTextStroke: "2px blue" }}  className='text-7xl sm:text-8xl lg:text-9xl bg-gradient-to-r from-teal-400 to-yellow-200 bg-clip-text text-transparent mb-6 font-bold leading-tight tracking-wide'>
+   GREAT WEB DESIGN AND DEVELOPMENT
+  </h1>
+</div>
+
+
+      
    <div className='rotatetext shadow-md'>
     <h1  style={{ WebkitTextStroke: "1px black" }} className='text-[22vw] bg-black text-blue-500 font-[Anzo1] leading-[23vw] '>React<span  style={{ WebkitTextStroke: "1px blue" }} className='text-white'>JS</span></h1>
    </div>

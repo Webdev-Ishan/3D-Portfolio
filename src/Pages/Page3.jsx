@@ -12,7 +12,7 @@ const Page3 = () => {
       muted
     />
     <div className='relative z-10 p-2 text-white mb-0'>
-      <h1 style={{ WebkitTextStroke: "1px black" }} className='font-semibold uppercase ml-5 text-[12vw] text-pretty text-white'>
+      <h1 style={{ WebkitTextStroke: "2px blue" }} className='font-semibold uppercase ml-5 text-[12vw] text-pretty text-white'>
         Skills
       </h1>
       <div className="grid grid-cols-4 grid-rows-4 mt-10 ">
