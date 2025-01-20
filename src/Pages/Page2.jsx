@@ -79,7 +79,7 @@ Find Me Here
 
 
 
-   <div className='w-full h-auto mt-12 p-4 flex justify-evenly items-start '>
+   <div className='w-full h-auto mt-12 p-4 flex justify-evenly items-start mb-14 '>
  
 
 
@@ -109,10 +109,7 @@ Twitter ...</a>
    </div>
 
 
-   <div className='w-full border-black border-[1px] mt-16  '>
 
-
-</div>
 
     </div>
     

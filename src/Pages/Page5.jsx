@@ -3,8 +3,8 @@ import bg3 from '../assets/Bg3.mp4';
 
 const Page5 = () => {
   return (
-    <div className='h-screen p-3 pt-16 bg-black'>
-      <div className='h-full w-full bg-black bg-cover bg-center p-4 rounded-[50px] relative overflow-hidden'>
+    <div className='h-screen p-3  mb-10 mt-10  bg-black'>
+      <div className='h-full w-full bg-black bg-cover bg-center p-4 rounded-[50px]  relative overflow-hidden'>
         {/* Background video */}
         <video
           autoPlay

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Page6 = () => {
   return (
-    <div className='h-screen p-6 bg-black'>
+    <div className='h-screen p-6 bg-black '>
     <h1 className='text-9xl text-white relative m-6 mb-16 left-20 font-[Anzo1]'>EDUCATION</h1>
   <div className='w-full h-auto mb-16 p-6 flex justify-between items-center text-white'>
 
@@ -46,7 +46,7 @@ const Page6 = () => {
   </div>
 
 
-  <div className='w-full h-auto p-6 flex justify-between items-center text-white'>
+  <div className=' h-screen p-6 flex justify-between items-center text-white border-b-2 '>
 
 
   <div className='w-72 h-72'>
